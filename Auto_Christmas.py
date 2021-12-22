@@ -2,7 +2,7 @@ import cv2
 import sys
 import logging as log
 import datetime as dt
-cascPath = "。/haarcascade_frontalface_alt2.xml"
+cascPath = "./haarcascade_frontalface_alt2.xml"
 faceCascade = cv2.CascadeClassifier(cascPath)
 # 打开视频捕获设备
 video_capture = cv2.VideoCapture(0)##可改为视频
